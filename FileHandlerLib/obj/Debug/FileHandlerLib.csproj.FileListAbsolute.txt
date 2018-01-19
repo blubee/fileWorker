@@ -1,0 +1,5 @@
+C:\Projekte\Sugar\FileHandlerHelper\FileHandlerLib\bin\Debug\FileHandlerLib.dll
+C:\Projekte\Sugar\FileHandlerHelper\FileHandlerLib\bin\Debug\FileHandlerLib.pdb
+C:\Projekte\Sugar\FileHandlerHelper\FileHandlerLib\obj\Debug\FileHandlerLib.dll
+C:\Projekte\Sugar\FileHandlerHelper\FileHandlerLib\obj\Debug\FileHandlerLib.pdb
+C:\Projekte\Sugar\FileHandlerHelper\FileHandlerLib\obj\Debug\FileHandlerLib.csprojResolveAssemblyReference.cache

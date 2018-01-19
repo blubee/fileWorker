@@ -1,0 +1,11 @@
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\obj\Debug\CopyFiles.CopyFiles.resources
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\obj\Debug\CopyFiles.Properties.Resources.resources
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\obj\Debug\CopyFiles.csproj.GenerateResource.Cache
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\bin\Debug\CopyFiles.exe.config
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\bin\Debug\CopyFiles.exe
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\bin\Debug\CopyFiles.pdb
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\bin\Debug\FileHandlerLib.dll
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\bin\Debug\FileHandlerLib.pdb
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\obj\Debug\CopyFiles.exe
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\obj\Debug\CopyFiles.pdb
+C:\Projekte\Sugar\FileHandlerHelper\CopyFiles\obj\Debug\CopyFiles.csprojResolveAssemblyReference.cache

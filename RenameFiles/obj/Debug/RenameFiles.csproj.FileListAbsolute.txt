@@ -1,0 +1,11 @@
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\bin\Debug\RenameFiles.exe.config
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\bin\Debug\RenameFiles.exe
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\bin\Debug\RenameFiles.pdb
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\bin\Debug\FileHandlerLib.dll
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\bin\Debug\FileHandlerLib.pdb
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\obj\Debug\RenameFiles.csprojResolveAssemblyReference.cache
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\obj\Debug\RenameFiles.Properties.Resources.resources
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\obj\Debug\RenameFiles.RenameFiles.resources
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\obj\Debug\RenameFiles.csproj.GenerateResource.Cache
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\obj\Debug\RenameFiles.exe
+C:\Projekte\Sugar\FileHandlerHelper\RenameFiles\obj\Debug\RenameFiles.pdb
