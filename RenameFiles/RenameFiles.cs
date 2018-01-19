@@ -50,10 +50,7 @@ namespace RenameFiles
                 {
                     files = aFiles.GetFiles().OrderBy(p => p.Name);
                 }
-
-                var abb = "bp";
-
-                
+               
                 var aFileCounter = Convert.ToInt32(targetFileCounterBeginTbx.Text);
 
                 foreach (var item in files)
@@ -67,9 +64,13 @@ namespace RenameFiles
 
                     if(aFileCounter < 10)
                     {
-                        aFileCounterStr = "00" + aFileCounterStr;
+                        aFileCounterStr = "000" + aFileCounterStr;
                     }
                     if(aFileCounter > 9 && aFileCounter < 100)
+                    {
+                        aFileCounterStr = "00" + aFileCounterStr;
+                    }
+                    if (aFileCounter > 99 && aFileCounter < 1000)
                     {
                         aFileCounterStr = "0" + aFileCounterStr;
                     }
@@ -91,6 +92,15 @@ namespace RenameFiles
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void folderSelectionBtn_Click(object sender, EventArgs e)
+        {
+            var aDialog = folderBrowserDialog1.ShowDialog();
+            if (aDialog == DialogResult.OK)
+            {
+                folderPathTbx.Text = folderBrowserDialog1.SelectedPath;
+            }
         }
     }
 }

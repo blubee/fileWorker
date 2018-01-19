@@ -40,11 +40,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.fileOrderCriteriaDdl = new System.Windows.Forms.ComboBox();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // startRenameProcessBtn
             // 
-            this.startRenameProcessBtn.Location = new System.Drawing.Point(591, 227);
+            this.startRenameProcessBtn.Location = new System.Drawing.Point(693, 164);
             this.startRenameProcessBtn.Name = "startRenameProcessBtn";
             this.startRenameProcessBtn.Size = new System.Drawing.Size(113, 23);
             this.startRenameProcessBtn.TabIndex = 0;
@@ -65,17 +67,18 @@
             // 
             this.folderPathTbx.Location = new System.Drawing.Point(16, 30);
             this.folderPathTbx.Name = "folderPathTbx";
-            this.folderPathTbx.Size = new System.Drawing.Size(597, 20);
+            this.folderPathTbx.Size = new System.Drawing.Size(695, 20);
             this.folderPathTbx.TabIndex = 2;
             // 
             // folderSelectionBtn
             // 
-            this.folderSelectionBtn.Location = new System.Drawing.Point(629, 27);
+            this.folderSelectionBtn.Location = new System.Drawing.Point(731, 27);
             this.folderSelectionBtn.Name = "folderSelectionBtn";
             this.folderSelectionBtn.Size = new System.Drawing.Size(75, 23);
             this.folderSelectionBtn.TabIndex = 3;
-            this.folderSelectionBtn.Text = "Auswahl";
+            this.folderSelectionBtn.Text = "Ordnerwahl";
             this.folderSelectionBtn.UseVisualStyleBackColor = true;
+            this.folderSelectionBtn.Click += new System.EventHandler(this.folderSelectionBtn_Click);
             // 
             // label2
             // 
@@ -98,9 +101,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(468, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(182, 13);
+            this.label3.Size = new System.Drawing.Size(175, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Beginne Counter ab (z.B. 0 oder 100)";
+            this.label3.Text = "Beginne Zähler ab (z.B. 0 oder 100)";
             // 
             // targetFileCounterBeginTbx
             // 
@@ -130,24 +133,34 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(16, 122);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(477, 26);
+            this.label5.Size = new System.Drawing.Size(477, 65);
             this.label5.TabIndex = 10;
             this.label5.Text = "Bsp: Alle Dateien bekommen den Hauptdateinamen \"Auto\" und Trenner \" - \" und Start" +
-    "Counter \"1\". \r\nDie Ausgabe ist dann Auto - 001.txt, Auto - 002.txt usw.";
+    "Counter \"1\". \r\nDie Ausgabe ist dann \r\nAuto - 001.txt\r\nAuto - 002.txt \r\nusw.";
             // 
             // fileOrderCriteriaDdl
             // 
             this.fileOrderCriteriaDdl.FormattingEnabled = true;
-            this.fileOrderCriteriaDdl.Location = new System.Drawing.Point(572, 126);
+            this.fileOrderCriteriaDdl.Location = new System.Drawing.Point(685, 85);
             this.fileOrderCriteriaDdl.Name = "fileOrderCriteriaDdl";
             this.fileOrderCriteriaDdl.Size = new System.Drawing.Size(121, 21);
             this.fileOrderCriteriaDdl.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(682, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Dateisortierung";
             // 
             // RenameFiles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 262);
+            this.ClientSize = new System.Drawing.Size(818, 200);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.fileOrderCriteriaDdl);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -181,6 +194,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox fileOrderCriteriaDdl;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.Label label6;
     }
 }
 
